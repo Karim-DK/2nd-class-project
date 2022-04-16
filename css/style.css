@@ -34,29 +34,31 @@ a {
 header {
     display: flex;
     justify-content: space-around;
+    background-color: #eee;
+    z-index: 1;
     height: 60px;
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 1;
-    background-color: #eee;
+
+ 
 }
 header img {
-    width: 25%;
     margin-right: auto;
     margin-left: 20px;
     margin-top: 30px;
+    width: 25%;
 }
 header ul {
     display: flex;
      
 }
 header ul li {
-    width: 10vw;
-    justify-content: space-around;
     margin-right: auto;
     flex-direction: row;
     margin-top: 30px;
+    width: 10vw;
+    justify-content: space-around;
 }
 header ul li a {
     color: #000;
